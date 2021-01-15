@@ -40,14 +40,14 @@ const ListView = ({ title, editData, deleteData }: any) => {
                 <input type="text" onChange={handleChange} autoFocus/>
                 <div className="action">
 
-            <Button title="delete" onClick={(e:any) => handleDelete(e,index, title)} className="button-delete" />
-            <Button title="save" onClick={()=> onSave(index)} className="button-save" />
+            <Button title="delete" onClick={(e:any) => handleDelete(e,index, title)} className="btn button-delete" />
+            <Button title="save" onClick={()=> onSave(index)} className="btn button-save" />
                 </div>
             </> : <><span>{title.title}</span>
             <div className="action" >
 
-            <Button title="delete"  onClick={(e:any) => handleDelete(e,index, title)}  className="button-delete" />
-            <Button title="edit" onClick={()=> handleEditToggle(index)} className="button-edit" />
+            <Button title="delete"  onClick={(e:any) => handleDelete(e,index, title)}  className="btn button-delete" />
+            <Button title="edit" onClick={()=> handleEditToggle(index)} className="btn button-edit" />
             </div></>}
             
         </div>

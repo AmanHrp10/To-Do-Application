@@ -29,7 +29,7 @@ const Landing = ({ addData }: any) => {
             <div className="todo-app">
                 <form action="" onSubmit={onSubmit}  className="input-todo">
                     <InputText onChange={handleChange} value={newData.title} title="Add . . ."/>
-                    <Button type="submit" title="Add" className="button-add" />
+                    <Button type="submit" title="Add" className=" btn button-add" />
             </form>
                 </div>
                     <ListView/>
