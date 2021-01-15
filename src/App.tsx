@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import ListView from './Components/ListView';
 import Landing from './Pages';
 
 
